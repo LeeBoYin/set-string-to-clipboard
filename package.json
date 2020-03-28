@@ -1,0 +1,22 @@
+{
+	"name": "set-string-to-clipboard",
+	"description": "a simple function to set string to clipboard",
+	"version": "1.0.0",
+	"main": "dist/main.js",
+	"devDependencies": {
+		"@babel/core": "^7.7.7",
+		"@babel/preset-env": "^7.7.7",
+		"babel-loader": "^8.0.6",
+		"rimraf": "^3.0.0",
+		"webpack": "^4.41.5",
+		"webpack-cli": "^3.3.10"
+	},
+	"dependencies": {},
+	"scripts": {
+		"clean": "rimraf dist",
+		"build": "npm run clean && webpack --mode production"
+	},
+	"author": "leeboyin",
+	"license": "MIT",
+	"keywords": ["string", "copy", "clipboard"]
+}
